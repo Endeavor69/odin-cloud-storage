@@ -1,0 +1,83 @@
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-tab {
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-tab .logo {
+  height: 40px;
+}
+
+.header-tab .text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-tab .links {
+  display: flex;
+  gap: 26px;
+}
+
+.header-content {
+  border: 10px solid purple;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 100px 80px;
+}
+
+.header-content .left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  width: 400px;
+  height: 100%;
+}
+
+.header-content .left-container .title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-content .left-container .description {
+  font-size: 18px;
+}
+
+.header-content .left-container .button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.header-content .right-container {
+  flex: 1;
+  height: 260px;
+  width: 400px;
+}
+
+.header-content .right-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
